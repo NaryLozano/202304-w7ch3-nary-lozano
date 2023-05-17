@@ -23,7 +23,7 @@ module.exports = {
       },
     },
     {
-      files: ["src/**/models/*.ts"],
+      files: ["src/**/models/**/*.ts"],
       rules: {
         "@typescript-eslint/naming-convention": "off",
       },
